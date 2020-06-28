@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  line-height: 2;
+}
+
+h1.heading{
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 50px;
+  color: #af460f;
+  font-size: 4rem;
+  font-weight: lighter;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: #af460f;
+}
+p{
+  font-weight: 400;
+}
+
+/***************************TOP-CONTAINER***********************/
+.top-container {
+  background-color: #dcedc2;
+  padding-top:20px;
+}
+
+.heading {
+  position: relative;
+  top:30px;
+
+}
+
+
+
+.image-block {
+  height: 100%;
+  width: 100%;
+}
+
+.sun {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  opacity: 0.5;
+
+}
+
+
+.bird{
+  height: 50px;
+  width:60px;
+  position: absolute;
+  right: 100px;
+  opacity: 0.9;
+
+
+}
+
+.cloud {
+  height: 100px;
+  width: 130px;
+  opacity: 0.2;
+}
+
+.left-cloud {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.right-cloud {
+  position: absolute;
+  top: 90px;
+  right: 250px;
+}
+.panda{
+  height: 150px;
+  width:120px;
+  position:absolute;
+  bottom: 0;
+  opacity:0.8;
+  top:600px;
+  right:100px;
+  z-index: 1;
+
+
+}
+
+.nature {
+  position: relative;
+  top:4px ;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/******************************MIDDLE-CONTAINER***********************/
+.middle-container{
+  background-color: #dcedc2;
+  padding: 50px;
+
+}
+div.profile{
+width:600px;
+margin:0 auto 50px auto;
+padding: 50px;
+
+
+
+}
+img.profile{
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+
+
+}
+.skills{
+
+
+
+ }
+div.skill-one{
+  background-color:#b6eb7a;
+  padding: 50px;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 40px;
+
+}
+.skills img{
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+
+}
+div.skill-two{
+  background-color:#b6eb7a;
+  position: relative;
+  padding: 50px;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 40px;
+}
+
+
+/***********************BOTTOM-CONTAINER****************/
+.bottom-container{
+  background-color: #b6eb7a;
+  padding: 20px;
+
+}
+
+.social-media{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  position: relative;
+  right: 20px;
+}
+.peaboy2{
+  height: 150px;
+  width: 100px;
+  position: relative;
+  right: 100px;
+}
+.peaboy3{
+  height: 150px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+}
+.outer-hire{
+  background-color: #dcedc2;
+  padding-bottom: 60px;
+
+}
+.hire{
+  background-color: #b6eb7a;
+  padding: 10px;
+  width: 1100px;
+  margin: 0 auto;
+  border-radius: 40px;
+  position: relative;
+
+}
+.peaboy4{
+  height: 350px;
+  width: 300px;
+  position: relative;
+  right: 200px;
+
+}
+
+/*******************NAV-BAR******************/
+ul{
+  margin: 0;
+  margin-bottom: 0px;
+}
+li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float:right;
+}
+.nav a{
+  font-weight: 500;
+  display: block;
+  color:  #af460f;
+  margin:10px 20px 0;
+  padding: 10px;
+  text-decoration: none;
+  background-color:#e7f0c3;
+  border-radius: 5px;
+}
+.active{
+  float: left;
+}
+a.active{
+  background-color: #698474;
+  color:#f7f7f7;
+}
+.nav a:hover{
+  background-color: #698474;
+  color: #f7f7f7;
+
+}
+div.nav{
+   height: 70px;
+   background-color: #cceabb;
+   top:0;
+   width: 100%;
+
+}
+div.nav:hover{
+
+}
+.hire h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.mailbox{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 150px;
+}
